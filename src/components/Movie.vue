@@ -1,5 +1,6 @@
 <template>
     <div class ="TopPic" align="center">
+          <li><img src="../assets/TechnologyElementIcons/VueJs.png" width="100px" height="100px"></li>
       <video src="../assets/Video.mp4" controls></video>
     </div>
 </template>
