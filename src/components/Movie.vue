@@ -1,7 +1,9 @@
 <template>
     <div class ="TopPic" align="center">
-      <div v-show="!checkPassWord">
-        <input v-model="password" placeholder="Enter PassWord">
+      <div class="centering_parent">
+        <div v-show="!checkPassWord">
+           <input v-model="password" placeholder="Enter PassWord">
+        </div>
       </div>
       <div v-show="checkPassWord">
         <video src="../assets/Video.mp4" controls></video>
@@ -38,6 +40,11 @@ export default {
 .TopPic{
   position:absolute;
   top: 80px;
+}
+
+.centering_parent {
+    text-align:  center;        /* 中央寄せ */
+    height: 50px;              /* 高さ指定 */
 }
 
 .Content{
