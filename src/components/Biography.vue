@@ -27,12 +27,6 @@
   word-break: keep-all;
 }
 
-.Body{
-  font-family: "Sawarabi Mincho";
-  font-size: 30px;
-  line-height: 150%;
-}
-
 .hr_bar {
   position: relative;
   height: 1px;
