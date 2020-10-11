@@ -8,14 +8,6 @@
       </div>
       <hr class="hr_bar" width="70%"/>
         <div class="Body">
-        <p>2001</p>
-        <p>ITに触れたきっかけ</p>
-        <p>学校に居場所がなくなり、チャットに出会い、遠方の人々とコミュニケーションが取れることに大感動する</p>
-        <p>2009/04~2013/03</p>
-        <p>山口大学で情報科学を専攻する。大学時代はあまりプログライミングに興味がなかった</p>
-        <p>(というのもIDEではなく、テキストエディタでプログラミングする授業だったため、楽しさを見いだせず</p>
-        <p>2013/04~2018/3</p>
-        <p>山口大学で情報科学を専攻する。大学時代はあまりプログライミングに興味がなかった</p>
         <p>TestDrive</p>
       </div>
     </div>
@@ -31,10 +23,10 @@
 }
 
 .Content{
-  font-family: 'Amatic SC', cursive;
-  font-size: 80px;
-  background-color: transparent;
-  word-break: keep-all;
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 80px !important;
+  background-color: transparent !important;
+  word-break: keep-all !important;
 }
 
 .Body{
