@@ -126,7 +126,7 @@ export default {
 </script>
 
 <style>
-p{font-size:10px;
+p{font-size:60px;
 color: seashell;
 background-color: #b44c97;
 width: 300px;}
