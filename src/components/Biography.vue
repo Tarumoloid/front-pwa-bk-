@@ -1,7 +1,7 @@
 <template>
     <div class ="TopPic" align="center">
       <img src="../assets/Profile.jpg" width="50%" height="50%">
-      <div class="Content" :style="{'font-family': 'Amatic SC', cursive,'font-size': '80px'}">
+      <div :style="{'font-family': 'Amatic SC', cursive,'font-size': '80px','background-color': transparent}">
         <p>Kazumasa Tarumoto</p>
         <p>1990/08/22</p>
         <p>Born in Yamaguchi</p>
@@ -23,8 +23,13 @@
 }
 
 .Content{
-  background-color: transparent;
   word-break: keep-all;
+}
+
+.Body{
+  font-family: "Sawarabi Mincho";
+  font-size: 30px;
+  line-height: 150%;
 }
 
 .hr_bar {
