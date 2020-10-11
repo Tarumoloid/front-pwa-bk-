@@ -1,7 +1,7 @@
 <template>
     <div class ="TopPic" align="center">
       <img src="../assets/Profile.jpg" width="50%" height="50%">
-      <div class="Content">
+      <div class="Content" :style="{'font-family': 'Amatic SC', cursive,'font-size': '80px'}">
         <p>Kazumasa Tarumoto</p>
         <p>1990/08/22</p>
         <p>Born in Yamaguchi</p>
@@ -23,10 +23,8 @@
 }
 
 .Content{
-  font-family: 'Amatic SC', cursive !important;
-  font-size: 80px !important;
-  background-color: transparent !important;
-  word-break: keep-all !important;
+  background-color: transparent;
+  word-break: keep-all;
 }
 
 .Body{
