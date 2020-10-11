@@ -1,10 +1,37 @@
 <template>
     <div class ="TopPic" align="center">
-      <video src="../assets/Video.mp4" controls></video>
+      <div v-show="!checkPassWord">
+        <input v-model="password" placeholder="Enter PassWord">
+      </div>
+      <div v-show="checkPassWord">
+        <video src="../assets/Video.mp4" controls></video>
+      </div>
     </div>
 </template>
 
 <script>
+export default {
+  components: {
+  },
+  data: function () {
+    return {
+      flag: true,
+      password: '',
+      rightPassword: 'a19F'
+    }
+  },
+  methods: {
+    passwordSet: function () {
+      this.name = 'いいいいい'
+    }
+  },
+  computed: {
+    checkPassWord: function () {
+      return this.password === this.rightPassword
+    }
+  }
+}
+
 </script>
 
 <style>
