@@ -6,7 +6,7 @@
         </div>
       </div>
       <div v-show="checkPassWord">
-        <video src="../assets/Video.mp4" controls></video>
+        <video src="https://tarumoto-spa.s3-ap-northeast-1.amazonaws.com/forMovie/Video.mp4" controls></video>
       </div>
     </div>
 </template>
